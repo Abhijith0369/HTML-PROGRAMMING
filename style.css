@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(69, 136, 153);
+}
+
+h1 {
+    color: rgb(192, 158, 64);
+    text-align: center;
+}
+
+p {
+    color: purple;
+    font-size: 18px;
+}
