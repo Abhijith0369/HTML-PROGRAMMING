@@ -1,22 +1,10 @@
 navigatirframe.html
 <html>
     <head>
-        <title>
-            ifram
-        </title>
+        <title>Navigation Frame</title>
     </head>
-    <body>
-        <table border="1"
-        width="100%" height="100%">
-        <tr>
-            <td width="20%">
-                <iframe src="form.html" name="leftframe" width="40%" height="100%" frameborder="0">
-            </iframe>
-            </td>
-            <td width="80%">
-                <iframe name="right_frame" width="60%" height="100%" frameborder="0"></iframe>
-            </td>
-        </tr>
-        </table>
-    </body>
+    <frameset cols="30%,70%">
+        <frame src="table.html" name="menuframe">
+        <frame src="sample.html" name = "KMCT">
+    </frameset>
 </html>
